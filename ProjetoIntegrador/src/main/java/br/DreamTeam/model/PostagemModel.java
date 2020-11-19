@@ -12,7 +12,6 @@ import javax.persistence.Id;
 import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
-import javax.validation.constraints.NotNull;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
@@ -41,11 +40,9 @@ public class PostagemModel
 	
 	
 	@Column
-	
 	private String titulo;
 	
 	@Column
-	
 	private String artigo;//VERIFICAR SE NÃO TEM NENHUM TIPO TEXT
 	
 	
